@@ -56,11 +56,11 @@ The service is configured using environment variables:
 | `KAFKA_CONSUMER_GROUP` | Consumer group ID | `trace-consumer` |
 | `KAFKA_USERNAME` | Kafka username for SASL auth | `""` |
 | `KAFKA_PASSWORD` | Kafka password for SASL auth | `""` |
-| `DB_HOST` | PostgreSQL database host | `postgres-postgresql...` |
+| `DB_HOST` | PostgreSQL database host | `pg-postgresql...` |
 | `DB_PORT` | PostgreSQL database port | `5432` |
-| `DB_NAME` | PostgreSQL database name | `trace_db` |
+| `DB_NAME` | PostgreSQL database name | `trace` |
 | `DB_SCHEMA` | PostgreSQL schema name | `trace` |
-| `DB_USER` | PostgreSQL username | `postgres` |
+| `DB_USER` | PostgreSQL username | `""` |
 | `DB_PASSWORD` | PostgreSQL password | `""` |
 | `MAX_RETRIES` | Maximum number of processing retries | `3` |
 | `RETRY_BACKOFF_MS` | Backoff time in ms between retries | `1000` |
